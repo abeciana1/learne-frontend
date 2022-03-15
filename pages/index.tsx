@@ -3,6 +3,9 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
+//* import comps
+import PageHeader from '../components/PageHeader'
+
 const Home: NextPage = () => {
   return (
     <div>
@@ -17,7 +20,7 @@ const Home: NextPage = () => {
 
       <footer className={styles.footer}>
         <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          href="https://alexbeciana.com"
           target="_blank"
           rel="noopener noreferrer"
         >
