@@ -12,7 +12,7 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={styles.main}>
+      <main>
       </main>
 
       <footer className={styles.footer}>
@@ -22,8 +22,8 @@ const Home: NextPage = () => {
           rel="noopener noreferrer"
         >
           Powered by{' '}
-          <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
+          <span>
+            <Image src="/profile-pic.png" alt="Abeciana Logo" width={32} height={32} />
           </span>
         </a>
       </footer>
