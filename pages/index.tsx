@@ -16,6 +16,14 @@ const Home: NextPage = () => {
       </Head>
 
       <main>
+        <PageHeader
+          header={"Be a better you"}
+          tagline={"Create, enroll, or bring your own course. Be in command of your own growth and education!"}
+          // ctaButtonColor={ }
+          // ctaButtonText={ }
+          // ctaButtonStyle={ }
+          // image={}
+        />
       </main>
 
       <footer className={styles.footer}>
