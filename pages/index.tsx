@@ -4,7 +4,7 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
 //* import comps
-import PageHeader from '../components/PageHeader'
+import PageHeader from '../components/_headers/PageHeader'
 
 const Home: NextPage = () => {
   return (
@@ -19,8 +19,8 @@ const Home: NextPage = () => {
         <PageHeader
           header={"Be a better you"}
           tagline={"Create, enroll, or bring your own course. Be in command of your own growth and education!"}
-          // ctaButtonColor={ }
-          // ctaButtonText={ }
+          ctaButtonColor={"altYellow"}
+          ctaButtonText={"Signup"}
           // ctaButtonStyle={ }
           // image={}
         />
