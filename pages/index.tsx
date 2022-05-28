@@ -17,11 +17,11 @@ const Home: NextPage = () => {
 
       <main>
         <PageHeader
-          header={"Be a better you"}
-          tagline={"Create, enroll, or bring your own course. Be in command of your own growth and education!"}
-          ctaButtonColor={"altYellow"}
-          ctaButtonText={"Signup"}
-          // ctaButtonStyle={ }
+          header="Be a better you"
+          tagline="Create, enroll, or bring your own course. Be in command of your own growth and education!"
+          ctaButtonColor="altYellow"
+          ctaButtonText="Signup"
+          href="/signup"
           // image={}
         />
       </main>

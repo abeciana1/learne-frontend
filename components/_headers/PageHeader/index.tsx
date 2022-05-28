@@ -6,7 +6,7 @@ interface IPageHeader {
     tagline: string;
     ctaButtonColor: string;
     ctaButtonText: string
-    ctaButtonStyle: string;
+    href: string;
     image: string;
 }
 
