@@ -32,7 +32,7 @@ const Home: NextPage = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '}
+          Created by{' '}
           <span>
             <Image src="/profile-pic.png" alt="Abeciana Logo" width={32} height={32} />
           </span>
