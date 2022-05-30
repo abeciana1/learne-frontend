@@ -7,3 +7,5 @@ const DefaultMargin = ( { children }:{ children:any } ) => {
         </section>
     )
 }
+
+export default DefaultMargin

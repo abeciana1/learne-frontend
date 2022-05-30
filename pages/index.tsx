@@ -4,9 +4,25 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
 //* import comps
+import DefaultMargin from '../components/_layouts/DefaultMargin'
 import PageHeader from '../components/_headers/PageHeader'
 
-const Home: NextPage = () => {
+const Home = () => {
+
+  return (
+    <DefaultMargin>
+        <PageHeader
+          header="Be a better you"
+          tagline="Create, enroll, or bring your own course. Be in command of your own growth and education!"
+          ctaButtonColor="altYellow"
+          ctaButtonText="Signup"
+          href="/signup"
+        />
+    </DefaultMargin>
+  )
+}
+
+const OldHome: NextPage = () => {
   return (
     <div>
       <Head>
@@ -16,14 +32,7 @@ const Home: NextPage = () => {
       </Head>
 
       <main>
-        <PageHeader
-          header="Be a better you"
-          tagline="Create, enroll, or bring your own course. Be in command of your own growth and education!"
-          ctaButtonColor="altYellow"
-          ctaButtonText="Signup"
-          href="/signup"
-          // image={}
-        />
+
       </main>
 
       <footer className={styles.footer}>

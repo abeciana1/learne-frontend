@@ -1,5 +1,6 @@
 import React from 'react'
 import cx from 'classnames'
+import DefaultMargin from '../../_layouts/DefaultMargin'
 
 interface IPageHeader {
     header: string;
@@ -7,14 +8,20 @@ interface IPageHeader {
     ctaButtonColor: string;
     ctaButtonText: string
     href: string;
-    image: string;
 }
 
-const PageHeader = (props: IPageHeader) => {
+const PageHeader = ({
+    header,
+    tagline,
+    ctaButtonColor,
+    ctaButtonText,
+    href
+}: IPageHeader) => {
 
     return (
-        <React.Fragment>
-        </React.Fragment>
+        <DefaultMargin>
+
+        </DefaultMargin>
     )
 }
 
