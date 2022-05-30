@@ -3,7 +3,10 @@ import Image from 'next/image'
 const CreatedByFooter = () => {
 
     return (
-        <footer className="flex justify-center p-5">
+        <footer
+            className="flex justify-center p-5"
+            role="contentinfo"
+        >
             <a
             href="https://alexbeciana.com"
             target="_blank"
