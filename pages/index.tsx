@@ -14,9 +14,6 @@ const Home = () => {
         <PageHeader
           header="Be a better you"
           tagline="Create, enroll, or bring your own course. Be in command of your own growth and education!"
-          ctaButtonColor="altYellow"
-          ctaButtonText="Signup"
-          href="/signup"
         />
     </DefaultMargin>
   )

@@ -12,10 +12,7 @@ interface IPageHeader {
 
 const PageHeader = ({
     header,
-    tagline,
-    ctaButtonColor,
-    ctaButtonText,
-    href
+    tagline
 }: IPageHeader) => {
 
     return (
