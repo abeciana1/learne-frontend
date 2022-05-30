@@ -12,10 +12,11 @@ const CreatedByFooter = () => {
             >
             Created by{' '}
             <span
-                className="self-center"
+                className="self-center ml-2"
             >
                 <img src='/profile-pic.png' alt="Abeciana Logo" width={32} height={32} />
             </span>
+                <div className="ml-2">Alexander Beciana</div>
             </a>
         </footer>
     )
