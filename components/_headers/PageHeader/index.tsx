@@ -5,9 +5,6 @@ import DefaultMargin from '../../_layouts/DefaultMargin'
 interface IPageHeader {
     header: string;
     tagline: string;
-    ctaButtonColor: string;
-    ctaButtonText: string
-    href: string;
 }
 
 const PageHeader = ({
