@@ -1,4 +1,5 @@
 import { Html, Head, Main, NextScript } from 'next/document'
+import CreatedByFooter from '../components/core/CreatedByFooter'
 
 const Document = () => {
 
@@ -10,7 +11,8 @@ const Document = () => {
             <body>
                 <Main />
                 <NextScript />
-            </body>     
+            </body>
+            <CreatedByFooter/>
         </Html>
     )
 }
