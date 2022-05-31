@@ -1,6 +1,5 @@
 import React from 'react'
-import cx from 'classnames'
-import DefaultMargin from '../../_layouts/DefaultMargin'
+import { PageHeaderH1 } from '../../_headings'
 
 interface IPageHeader {
     header: string;
@@ -13,9 +12,12 @@ const PageHeader = ({
 }: IPageHeader) => {
 
     return (
-        <DefaultMargin>
-
-        </DefaultMargin>
+        <>
+            <PageHeaderH1>{header}</PageHeaderH1>
+            <div
+                className="text-4xl"
+            >{tagline}</div>
+        </>
     )
 }
 

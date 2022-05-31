@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'Barlow', sans-serif;
+  src: url('https://fonts.googleapis.com/css2?family=Barlow');
+  display: font-swap;
+}
+
 html,
 body {
   padding: 0;
