@@ -2,6 +2,9 @@
 import CustomHead from '../components/core/CustomHead'
 import DefaultMargin from '../components/_layouts/DefaultMargin'
 import PageHeader from '../components/_headers/PageHeader'
+import TwoColumn from '../components/_layouts/TwoColumn'
+
+//* import libraries
 
 const Home = () => {
 
@@ -12,10 +15,14 @@ const Home = () => {
         description="Learn something new"
       />
       <DefaultMargin>
-          <PageHeader
-            header="Be a better you"
-            tagline="Create, enroll, or bring your own course. Be in command of your own growth and education!"
-          />
+        <TwoColumn>
+          <div>
+            <PageHeader
+              header="Be a better you"
+              tagline="Create, enroll, or bring your own course. Be in command of your own growth and education!"
+            />
+          </div>
+        </TwoColumn>
       </DefaultMargin>
     </>
   )

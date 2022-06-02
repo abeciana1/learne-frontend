@@ -2,7 +2,9 @@
 const DefaultMargin = ( { children }:{ children:any } ) => {
 
     return (
-        <section>
+        <section
+            className="mx-10"
+        >
             {children}
         </section>
     )
