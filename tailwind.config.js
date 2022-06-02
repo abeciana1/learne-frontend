@@ -8,7 +8,8 @@ module.exports = {
       altYellow: "#FFD54B",
       altGreen: "#5B9A6D",
       altBlue: "#5386E4",
-      altRed: "#E63946"
+      altRed: "#E63946",
+      altBlack: "#2A3D45"
     },
     extend: {},
   },
