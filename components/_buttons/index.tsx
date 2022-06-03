@@ -8,13 +8,19 @@ interface IButtonProps {
     onClick?: (e: React.MouseEvent<HTMLElement>) => void;
 }
 
-export const SolidButton = ({
+//! create separate buttons for href and onClick
+
+export const SolidClickButton = ({
     text,
-    href,
     color,
     onClick
 }: IButtonProps) => {
     return (
-        <button></button>
+        <button
+            onClick={onClick}
+            className=""
+        >
+            { text }
+        </button>
     )
 }
