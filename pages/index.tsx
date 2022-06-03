@@ -2,6 +2,7 @@
 import CustomHead from '../components/core/CustomHead'
 import PageHeader from '../components/_headers/PageHeader'
 import { SolidHrefButton } from '../components/_buttons'
+import { SectionHeaderH2 } from '../components/_headings'
 
 //* import layouts
 import DefaultMargin from '../components/_layouts/DefaultMargin'
@@ -50,6 +51,13 @@ const Home = () => {
             height={433}
           />
         </TwoColumn>
+        <div
+          className="w-1/2 pt-10"
+        >
+          <SectionHeaderH2>
+            Create your own course
+          </SectionHeaderH2>
+        </div>
       </DefaultMargin>
     </>
   )
