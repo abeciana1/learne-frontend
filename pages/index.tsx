@@ -58,6 +58,15 @@ const Home = () => {
             Create your own course
           </SectionHeaderH2>
         </div>
+        <TwoColumn>
+          <Image
+            src="/chalkboard.png"
+            alt="Chalkboard"
+            layout="responsive"
+            width={400}
+            height={446}
+          />
+        </TwoColumn>
       </DefaultMargin>
     </>
   )
