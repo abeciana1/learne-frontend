@@ -20,6 +20,12 @@ const Home = () => {
         description="Learn something new"
       />
       <DefaultMargin>
+        <Image
+          src="/gradient-blur.png"
+          layout="fill"
+          objectFit="cover"
+          quality={100}
+        />
         <TwoColumn
           addClass="gap-20 py-20"
         >
@@ -38,6 +44,7 @@ const Home = () => {
           </div>
           <Image
             src='/stack-of-books.png'
+            alt="Book stack"
             layout="responsive"
             width={700}
             height={433}
