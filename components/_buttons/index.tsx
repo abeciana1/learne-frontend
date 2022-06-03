@@ -43,7 +43,7 @@ export const SolidHrefButton = ({
             rel="noopener"
         >
             <button
-                className={cx("px-3 py-1 rounded-md text-3xl", {
+                className={cx("px-3 py-2 rounded-md text-3xl", {
                     ["bg-altYellow text-altBlack"]: color === "altYellow",
                     ["bg-altGreen text-altGray"]: color === "altGreen",
                     ["bg-altBlue text-altGray"]: color === "altBlue",
@@ -65,13 +65,13 @@ export const OutlineClickButton = ({
     return (
         <button
             onClick={onClick}
-            className={cx("bg-altGray px-3 py-1 rounded-md text-3xl", {
-                ["border-4 border-altYellow text-altYellow"]: color === "altYellow",
-                ["border-4 border-altGreen text-altGreen"]: color === "altGreen",
-                ["border-4 border-altBlue text-altBlue"]: color === "altBlue",
-                ["border-4 border-altRed text-altRed"]: color === "altRed",
-                ["border-4 border-altBlack text-altBlack"]: color === "altBlack",
-            })}
+                className={cx("bg-altGray px-3 py-1 rounded-md text-3xl", {
+                    ["border-4 border-altYellow text-altYellow"]: color === "altYellow",
+                    ["border-4 border-altGreen text-altGreen"]: color === "altGreen",
+                    ["border-4 border-altBlue text-altBlue"]: color === "altBlue",
+                    ["border-4 border-altRed text-altRed"]: color === "altRed",
+                    ["border-4 border-altBlack text-altBlack"]: color === "altBlack",
+                })}
         >
             { text }
         </button>

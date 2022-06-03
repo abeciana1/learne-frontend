@@ -1,7 +1,7 @@
 //* import comps
 import CustomHead from '../components/core/CustomHead'
 import PageHeader from '../components/_headers/PageHeader'
-import { OutlineHrefButton } from '../components/_buttons'
+import { SolidHrefButton } from '../components/_buttons'
 
 //* import layouts
 import DefaultMargin from '../components/_layouts/DefaultMargin'
@@ -21,7 +21,7 @@ const Home = () => {
       />
       <DefaultMargin>
         <TwoColumn
-          addClass="gap-20"
+          addClass="gap-20 py-20"
         >
           <div>
             <PageHeader
@@ -29,7 +29,7 @@ const Home = () => {
               tagline="Create, enroll, or bring your own course. Be in command of your own growth and education!"
             />
             <ButtonGroup>
-              <OutlineHrefButton
+              <SolidHrefButton
                 text="Signup"
                 href="/signup"
                 color="altYellow"

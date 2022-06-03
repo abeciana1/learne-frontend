@@ -15,7 +15,7 @@ const PageHeader = ({
         <>
             <PageHeaderH1>{header}</PageHeaderH1>
             <div
-                className="my-5 text-4xl"
+                className="my-5 text-4xl leading-snug"
             >{tagline}</div>
         </>
     )

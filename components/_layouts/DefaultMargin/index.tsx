@@ -3,7 +3,7 @@ const DefaultMargin = ( { children }:{ children:any } ) => {
 
     return (
         <section
-            className="mx-10"
+            className="mx-20"
         >
             {children}
         </section>
