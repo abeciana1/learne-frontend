@@ -5,9 +5,11 @@ import { SolidHrefButton } from '../components/_buttons'
 import { SectionHeaderH2 } from '../components/_headings'
 
 //* import layouts
-import DefaultMargin from '../components/_layouts/DefaultMargin'
-import TwoColumn from '../components/_layouts/TwoColumn'
-import ButtonGroup from '../components/_layouts/ButtonGroup'
+import {
+  DefaultMargin,
+  TwoColumn,
+  ButtonGroup
+} from '../components/_layouts'
 
 //* import libraries
 import Image from 'next/image'
