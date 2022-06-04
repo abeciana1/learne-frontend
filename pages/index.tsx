@@ -21,12 +21,12 @@ const Home = () => {
         description="Learn something new"
       />
       <DefaultMargin>
-        <Image
-          src="/gradient-blur.png"
-          layout="fill"
-          objectFit="cover"
-          quality={100}
-        />
+          <img
+            src="/gradient-blur.png"
+            className="absolute -top-16 w-10/12 text-center"
+          />
+        <div className="">
+        </div>
         <TwoColumn
           addClass="gap-20 py-20"
         >
