@@ -80,9 +80,7 @@ const Home = () => {
             dataSource={CreateCourseValue}
           />
         </TwoColumn>
-        <TwoColumn
-          addClass="flex"
-        >
+        <TwoColumn>
           <div>
             <SectionHeaderH2>
               Enroll
@@ -97,10 +95,24 @@ const Home = () => {
           <img
             src="/ruler.png"
             className="mx-auto"
+            alt="Ruler"
           />
         </TwoColumn>
-
-      {/* </DefaultMargin> */}
+        <TwoColumn>
+          <div>
+            <SectionHeaderH2>
+              Learn
+            </SectionHeaderH2>
+            <SubSectionHeaderH3>
+              Embed third-party course videos
+            </SubSectionHeaderH3>
+          </div>
+          <img
+            src="/pencil.png"
+            className="mx-auto"
+            alt="Pencil"
+          />
+        </TwoColumn>
     </>
   )
 }

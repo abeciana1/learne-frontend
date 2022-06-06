@@ -1,8 +1,11 @@
+import cx from 'classnames'
+
 interface PropListI {
     [key: string]: any;
+    className?: string;
 }
 
-const ValuePropList = ( { dataSource } : PropListI ) => (
+const ValuePropList = ( { dataSource, className } : PropListI ) => (
         <ul>
             {dataSource.map(({ image, heading, body }: { image: string; heading: string; body: string;}) => {
                 return (
