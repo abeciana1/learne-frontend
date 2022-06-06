@@ -3,18 +3,18 @@
         "heading": "Teach your way.",
         "body": "Set your own goals. Plan and create your lessons.",
         "comingSoon": false,
-        "image": "/feature-list-images/coming_soon.svg"
+        "image": "/feature-list-images/check.svg"
     },
     {
         "heading": "Inspire students.",
         "body": "Teach what you know and what you’re passionate about.",
         "comingSoon": false,
-        "image": "/feature-list-images/coming_soon.svg"
+        "image": "/feature-list-images/check.svg"
     },
     {
         "heading": "Get rewarded.",
         "body": "Expand your network, build your reputation, and monetize. (Coming soon)",
         "comingSoon": true,
-        "image": "/feature-list-images/check.svg"
+        "image": "/feature-list-images/coming_soon.svg"
     }
 ]

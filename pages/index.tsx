@@ -3,6 +3,7 @@ import CustomHead from '../components/core/CustomHead'
 import PageHeader from '../components/_headers/PageHeader'
 import { SolidHrefButton } from '../components/_buttons'
 import { SectionHeaderH2 } from '../components/_headings'
+import ValuePropList from '../components/_layouts/ValuePropList'
 
 //* import layouts
 import {
@@ -13,6 +14,7 @@ import {
 
 //* import libraries
 import Image from 'next/image'
+import CreateCourseValue from '../utils/create_course.json'
 
 const Home = () => {
 
@@ -25,7 +27,7 @@ const Home = () => {
       <DefaultMargin>
           <img
             src="/gradient-blur.png"
-            className="absolute -top-16 w-10/12 text-center"
+            className="absolute object-cover lg:-top-16 lg:w-10/12 text-center"
           />
         <div className="">
         </div>
@@ -60,13 +62,18 @@ const Home = () => {
             Create your own course
           </SectionHeaderH2>
         </div>
-        <TwoColumn>
+        <TwoColumn
+          addClass="gap-20 py-20"
+        >
           <Image
             src="/chalkboard.png"
             alt="Chalkboard"
             layout="responsive"
             width={400}
             height={446}
+          />
+          <ValuePropList
+            dataSource={CreateCourseValue}
           />
         </TwoColumn>
       </DefaultMargin>
