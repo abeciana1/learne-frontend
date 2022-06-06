@@ -2,7 +2,11 @@
 import CustomHead from '../components/core/CustomHead'
 import PageHeader from '../components/_headers/PageHeader'
 import { SolidHrefButton } from '../components/_buttons'
-import { SectionHeaderH2 } from '../components/_headings'
+import {
+  SectionHeaderH2,
+  SubSectionHeaderH3,
+  TaglineHeaderH4
+} from '../components/_headings'
 import ValuePropList from '../components/_layouts/ValuePropList'
 
 //* import layouts
@@ -77,11 +81,19 @@ const Home = () => {
           />
         </TwoColumn>
         <TwoColumn
-          addClass="gap-20 py-20"
+          addClass="flex"
         >
-          <SectionHeaderH2>
-            Enroll
-          </SectionHeaderH2>
+          <div>
+            <SectionHeaderH2>
+              Enroll
+            </SectionHeaderH2>
+            <SubSectionHeaderH3>
+              A broad selection of courses
+            </SubSectionHeaderH3>
+            <TaglineHeaderH4>
+              What are you interested in?
+            </TaglineHeaderH4>
+          </div>
         </TwoColumn>
       </DefaultMargin>
     </>
