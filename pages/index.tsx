@@ -19,6 +19,7 @@ import {
 import Image from 'next/image'
 import CreateCourseValue from '../utils/create_course.json'
 import LearnValue from '../utils/learn.json'
+import Courses from '../utils/homepage_courses.json'
 
 const Home = () => {
 
