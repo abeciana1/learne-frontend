@@ -11,7 +11,7 @@ const Document = () => {
                 <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin='true'/>
             </Head>
             <body
-                className="mx-5 lg:mx-10"
+                className="mx-2 lg:mx-10"
             >
                 <Main />
                 <NextScript />

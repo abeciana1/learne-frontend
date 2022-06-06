@@ -69,14 +69,17 @@ const Home = () => {
         </div>
         <TwoColumn
           addClass="gap-20 py-20"
-        >
-          <Image
-            src="/chalkboard.png"
-            alt="Chalkboard"
-            layout="responsive"
-            width={400}
-            height={446}
-          />
+      >
+        <Image
+          src="/chalkboard.png"
+          alt="Chalkboard"
+          className="object-fit"
+          layout="responsive"
+          width={400}
+          height={446}
+        />
+        {/* <div className="object-contain">
+        </div> */}
           <ValuePropList
             dataSource={CreateCourseValue}
           />

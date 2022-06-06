@@ -4,7 +4,7 @@ const CreatedByFooter = () => {
 
     return (
         <footer
-            className="flex justify-center p-5"
+            className="flex justify-center py-5"
             role="contentinfo"
         >
             <a
