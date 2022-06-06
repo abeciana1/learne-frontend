@@ -11,7 +11,7 @@ import ValuePropList from '../components/_layouts/ValuePropList'
 
 //* import layouts
 import {
-  TwoColumn,
+  TwoColumnGrid,
   ButtonGroup
 } from '../components/_layouts'
 
@@ -36,7 +36,7 @@ const Home = () => {
           />
         <div className="">
         </div>
-        <TwoColumn
+        <TwoColumnGrid
           addClass="gap-20 py-20"
         >
           <div>
@@ -59,7 +59,7 @@ const Home = () => {
             width={700}
             height={433}
           />
-        </TwoColumn>
+        </TwoColumnGrid>
         <div
           className="w-1/2 pt-10"
         >
@@ -67,7 +67,7 @@ const Home = () => {
             Create your own course
           </SectionHeaderH2>
         </div>
-        <TwoColumn
+        <TwoColumnGrid
           addClass="gap-20 py-20"
       >
         <Image
@@ -83,8 +83,8 @@ const Home = () => {
           <ValuePropList
             dataSource={CreateCourseValue}
           />
-        </TwoColumn>
-        <TwoColumn>
+        </TwoColumnGrid>
+        <TwoColumnGrid>
           <div>
             <SectionHeaderH2>
               Enroll
@@ -101,8 +101,8 @@ const Home = () => {
             className="mx-auto"
             alt="Ruler"
           />
-        </TwoColumn>
-        <TwoColumn>
+        </TwoColumnGrid>
+        <TwoColumnGrid>
           <div>
             <SectionHeaderH2>
               Learn
@@ -116,7 +116,7 @@ const Home = () => {
             className="mx-auto"
             alt="Pencil"
           />
-        </TwoColumn>
+        </TwoColumnGrid>
         <ValuePropList
           dataSource={LearnValue}
           addClass="grid grid-cols-1 md:grid-cols-2 gap-20 py-10"

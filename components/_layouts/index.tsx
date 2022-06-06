@@ -1,6 +1,6 @@
 import cx from 'classnames'
 
-export const TwoColumn = ({ children, addClass="" }: { children: any, addClass?:string }) => {
+export const TwoColumnGrid = ({ children, addClass="" }: { children: any, addClass?:string }) => {
     
     return (
         <section
@@ -12,6 +12,8 @@ export const TwoColumn = ({ children, addClass="" }: { children: any, addClass?:
         </section>
     )
 }
+
+
 
 export const ButtonGroup = ({ children }: { children: any }) => {
     return (
