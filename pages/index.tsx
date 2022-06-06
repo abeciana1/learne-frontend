@@ -19,6 +19,7 @@ import {
 //* import libraries
 import Image from 'next/image'
 import CreateCourseValue from '../utils/create_course.json'
+import LearnValue from '../utils/learn.json'
 
 const Home = () => {
 
@@ -113,6 +114,10 @@ const Home = () => {
             alt="Pencil"
           />
         </TwoColumn>
+        <ValuePropList
+          dataSource={LearnValue}
+          addClass="grid grid-cols-1 md:grid-cols-2 gap-20 py-10"
+        />
     </>
   )
 }

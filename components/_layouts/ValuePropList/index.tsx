@@ -2,11 +2,14 @@ import cx from 'classnames'
 
 interface PropListI {
     [key: string]: any;
-    className?: string;
 }
 
-const ValuePropList = ( { dataSource, className } : PropListI ) => (
-        <ul>
+const ValuePropList = ( { dataSource, addClass="" } : PropListI ) => (
+        <ul
+            className={cx({
+                [addClass]: addClass
+            })}
+        >
             {dataSource.map(({ image, heading, body }: { image: string; heading: string; body: string;}) => {
                 return (
                     <li

@@ -1,0 +1,26 @@
+[
+    {
+        "heading": "Embed videos.",
+        "body": "Embed live and recorded YouTube and Zoom videos from your courses.",
+        "comingSoon": true,
+        "image": "/feature-list-images/coming_soon.svg"
+    },
+    {
+        "heading": "Markdown editor.",
+        "body": "Distraction-free and simple text editor.",
+        "comingSoon": true,
+        "image": "/feature-list-images/coming_soon.svg"
+    },
+    {
+        "heading": "Code snippets.",
+        "body": "Taking a technical course? No problem, add code snippets with syntax highlighting in your language.",
+        "comingSoon": true,
+        "image": "/feature-list-images/coming_soon.svg"
+    },
+    {
+        "heading": "Track assignments and reminders.",
+        "body": "Stay focused and on-time with everything you’re working on.",
+        "comingSoon": true,
+        "image": "/feature-list-images/coming_soon.svg"
+    }
+]
