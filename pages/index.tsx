@@ -76,6 +76,13 @@ const Home = () => {
             dataSource={CreateCourseValue}
           />
         </TwoColumn>
+        <TwoColumn
+          addClass="gap-20 py-20"
+        >
+          <SectionHeaderH2>
+            Enroll
+          </SectionHeaderH2>
+        </TwoColumn>
       </DefaultMargin>
     </>
   )

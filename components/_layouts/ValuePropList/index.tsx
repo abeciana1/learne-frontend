@@ -2,9 +2,7 @@ interface PropListI {
     [key: string]: any;
 }
 
-const ValuePropList = ( { dataSource } : PropListI ) => {
-
-    return (
+const ValuePropList = ( { dataSource } : PropListI ) => (
         <ul>
             {dataSource.map(({ image, heading, body }: { image: string; heading: string; body: string;}) => {
                 return (
@@ -28,6 +26,5 @@ const ValuePropList = ( { dataSource } : PropListI ) => {
             })}
         </ul>
     )
-}
 
 export default ValuePropList
