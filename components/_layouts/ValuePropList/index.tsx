@@ -10,13 +10,13 @@ const ValuePropList = ( { dataSource, addClass="" } : PropListI ) => (
                 [addClass]: addClass
             })}
         >
-            {dataSource.map(({ image, heading, body }: { image: string; heading: string; body: string;}) => {
+            {dataSource.map(({ comingSoon, heading, body }: { comingSoon: boolean; heading: string; body: string;}) => {
                 return (
                     <li
                         className="flex items-center my-2"
                     >
                         <img
-                            src={image}
+                            src={comingSoon ? '/feature-list-images/coming_soon.svg' : '/feature-list-images/check.svg'}
                         />
                         <div
                             className="font-bold text-xl ml-5"
