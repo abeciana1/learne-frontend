@@ -13,17 +13,6 @@ export const TwoColumn = ({ children, addClass="" }: { children: any, addClass?:
     )
 }
 
-// export const DefaultMargin = ( { children }:{ children:any } ) => {
-
-//     return (
-//         <
-//             // className="px-5 lg:px-10"
-//         >
-//             {children}
-//         </>
-//     )
-// }
-
 export const ButtonGroup = ({ children }: { children: any }) => {
     return (
         <div className="flex gap-10">
