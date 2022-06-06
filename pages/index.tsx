@@ -11,7 +11,6 @@ import ValuePropList from '../components/_layouts/ValuePropList'
 
 //* import layouts
 import {
-  // DefaultMargin,
   TwoColumn,
   ButtonGroup
 } from '../components/_layouts'
