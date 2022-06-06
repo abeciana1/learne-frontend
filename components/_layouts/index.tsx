@@ -13,7 +13,27 @@ export const TwoColumnGrid = ({ children, addClass="" }: { children: any, addCla
     )
 }
 
-
+export const FourColumnGrid = ({
+    children,
+    addClass = "",
+    mobileColumns = 2
+}: {
+        children: any,
+        addClass?: string,
+        mobileColumns?: number
+}) => {
+    return (
+        <section
+            className={cx("grid items-center", {
+                ['grid-cols-2']: mobileColumns === 2,
+                ['grid-cols-4']: mobileColumns === 4,
+                [addClass]: addClass
+            })}
+        >
+            { children }
+        </section>
+    )
+}
 
 export const ButtonGroup = ({ children }: { children: any }) => {
     return (
