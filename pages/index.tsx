@@ -11,7 +11,7 @@ import ValuePropList from '../components/_layouts/ValuePropList'
 
 //* import layouts
 import {
-  DefaultMargin,
+  // DefaultMargin,
   TwoColumn,
   ButtonGroup
 } from '../components/_layouts'
@@ -28,7 +28,7 @@ const Home = () => {
         title="Learne"
         description="Learn something new"
       />
-      <DefaultMargin>
+      {/* <DefaultMargin> */}
           <img
             src="/gradient-blur.png"
             className="absolute object-cover lg:-top-16 lg:w-10/12 text-center"
@@ -94,8 +94,13 @@ const Home = () => {
               What are you interested in?
             </TaglineHeaderH4>
           </div>
+          <img
+            src="/ruler.png"
+            className="mx-auto"
+          />
         </TwoColumn>
-      </DefaultMargin>
+
+      {/* </DefaultMargin> */}
     </>
   )
 }

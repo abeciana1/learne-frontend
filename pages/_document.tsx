@@ -10,7 +10,9 @@ const Document = () => {
                 <link rel="preconnect" href="https://fonts.googleapis.com"/>
                 <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin='true'/>
             </Head>
-            <body>
+            <body
+                className="mx-5 lg:mx-10"
+            >
                 <Main />
                 <NextScript />
             </body>
